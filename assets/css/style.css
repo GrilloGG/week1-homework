@@ -1,3 +1,4 @@
+    /* Universal selector and body backgournd set to white */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,8 @@ body {
     background-color: #d9dcd6;
 }
 
+
+    /* Header style */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +43,20 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+ 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+ 
 
+    /* Paragraph font size set */
 p {
     font-size: 16px;
 }
 
+
+    /* Main picture*/
 .background-photo {
     height: auto;
     width: 100%;
@@ -57,6 +64,8 @@ p {
     background-position: center;
 }
 
+
+    /* Main section on the left side */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -91,6 +100,8 @@ p {
     font-size: 36px;
 }
 
+
+    /* Second section on the right side */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,6 +129,8 @@ p {
     max-width: 150px;
 }
 
+
+    /* Footer */
 footer {
     padding: 30px;
     clear: both;
